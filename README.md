@@ -6,13 +6,29 @@ This is a simple React application that features a bottom sheet with spring moti
 
 1. Clone the repository to your local machine:
 
+   ```
+   git clone https://github.com/GovindPullagura/flam-app.git
+   ```
+
 2. Navigate to the project directory:
 
+   ```
+   cd bottom-sheet-app
+   ```
+
 3. Install the project dependencies:
+
+   ```
+   npm install
+   ```
 
 ## Usage
 
 1. Start the development server:
+
+   ```
+   npm start
+   ```
 
 2. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to see the React Bottom Sheet in action.
 
