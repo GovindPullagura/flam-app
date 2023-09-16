@@ -3,10 +3,10 @@ import "./App.css";
 import BottomSheet from "./Components/BottomSheet";
 
 function App() {
-  const [sheetPosition, setSheetPosition] = React.useState("fully-open"); // Initially set to 'closed'
+  const [sheetPosition, setSheetPosition] = React.useState("closed"); // Initially set to 'closed'
 
   const handleToggleSheet = () => {
-    setSheetPosition("half-open");
+    setSheetPosition("fully-open");
   };
   const handleCloseSheet = () => {
     setSheetPosition("closed");
@@ -18,6 +18,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>React Bottom Sheet</h1>
+        <button className="btn" onClick={handleToggleSheet}>
+          Open
+        </button>
+        <button className="btn" onClick={handleHalfOpen}>
+          Half Open
+        </button>
       </header>
       <main>
         <BottomSheet

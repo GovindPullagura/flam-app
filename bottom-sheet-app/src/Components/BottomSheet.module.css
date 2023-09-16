@@ -1,8 +1,9 @@
 .bottom-sheet {
   position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: 35%;
+  width: 30%;
+  margin: auto;
   transform-origin: bottom center;
 }
 
@@ -32,4 +33,16 @@
   border-top-right-radius: 15px;
   max-height: calc(100vh - 60px);
   overflow-y: auto;
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  color: white;
+  background-color: teal;
+  height: 28px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
 }

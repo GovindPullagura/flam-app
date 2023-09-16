@@ -10,9 +10,6 @@ const BottomSheet = ({
 }) => {
   return (
     <div className={`${styles["bottom-sheet"]} ${styles[sheetPosition]}`}>
-      <div className={styles["sheet-handle"]} onClick={handleHalfOpen}>
-        Handle
-      </div>
       <div className={styles["sheet-content"]}>
         <h2>Bottom Sheet Content</h2>
         <p>
@@ -33,7 +30,9 @@ const BottomSheet = ({
           non sem eu augue tempor ullamcorper. Vivamus nec orci vitae enim
           facilisis tincidunt.
         </p>
-        <button onClick={handleCloseSheet}>Close Sheet</button>
+        <button className={styles["btn"]} onClick={handleCloseSheet}>
+          Close Sheet
+        </button>
       </div>
     </div>
   );
