@@ -1,6 +1,6 @@
 # React Bottom Sheet
 
-This is a simple React application that features a bottom sheet with spring motion animations. It allows users to open and close the bottom sheet, as well as snap it to a half-open position. The project uses React for the front end and CSS for styling. No third-party libraries or modules were used for animations.
+This is a simple React application that features a bottom sheet. It allows users to open and close the bottom sheet, as well as snap it to a half-open position. The project uses React for the front end and CSS for styling. No third-party libraries or modules were used for animations.
 
 ## Installation
 
