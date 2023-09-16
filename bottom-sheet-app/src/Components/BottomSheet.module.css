@@ -1,0 +1,35 @@
+.bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform-origin: bottom center;
+}
+
+.bottom-sheet.closed {
+  transform: translateY(100%);
+}
+
+.bottom-sheet.half-open {
+  transform: translateY(50%);
+}
+
+.bottom-sheet.fully-open {
+  transform: translateY(0);
+}
+
+.sheet-handle {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sheet-content {
+  background-color: #fff;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+}
